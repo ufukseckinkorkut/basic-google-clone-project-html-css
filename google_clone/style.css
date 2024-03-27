@@ -1,0 +1,141 @@
+body {
+    background-color: #202124;
+    color: white;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.topbar {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: end;
+    margin-top: 10px;
+    margin-right: 8px;
+}
+
+.menu_icon {
+    position: relative;
+}
+
+.menu-backdrop {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    background-color: #353638;
+    width: 37px;
+    height: 37px;
+    margin-top: -30px;
+    right: -9px;
+    border-radius: 50%;
+    opacity: 0.4;
+}
+
+.menu_icon:hover .menu-backdrop {
+    display: block;
+}
+
+.profile {
+    display: inline-block;
+    border-radius: 50%;
+    width: 40px;
+    cursor: pointer;
+}
+
+.google {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 208px;
+}
+
+.google-logo {
+    width: 272px;
+    height: 92px;
+}
+
+input {
+    position: absolute;
+    background-color: #202124;
+    color: white;
+    border-color: grey;
+    border-width: 1px;
+    outline: none;
+    top: 119px;
+    width: 580px;
+    height: 44px;
+    border-radius: 24px;
+}
+
+.search,
+.keyboard,
+.mic,
+.cam {
+    position: absolute;
+    z-index: 1;
+    margin-top: 136px;
+    cursor: pointer;
+
+}
+
+.search {
+    width: 13px;
+    margin-left: -540px;
+    opacity: 0.5;
+}
+
+.keyboard {
+    margin-left: 355px;
+}
+
+.mic {
+    margin-left: 445px;
+}
+
+.cam {
+    margin-left: 530px;
+}
+
+button {
+    text-decoration: none;
+    background-color: #353638;
+    color: white;
+    outline: none;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    height: 36px;
+    font-family: Arial;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid grey;
+}
+
+.google-s,
+.lucky {
+    position: absolute;
+}
+
+.google-s {
+    margin-top: 196px;
+    margin-left: -225px;
+    width: 125px;
+}
+
+.lucky {
+    top: 196px;
+    margin-left: 135px;
+    width: 214px;
+
+}
